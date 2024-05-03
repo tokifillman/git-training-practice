@@ -55,4 +55,4 @@ calculate_AAR <-function(zip_list, outcome, startyear, endyear, util_location, s
   if(!(util_location %in% c("ED", "PDD"))){
     stop("Your util_location not one of the acceptable options: ED or PDD. Double check spelling and/or capitalization", call.=FALSE)
   }
-  
+  ####New code forpractice##
